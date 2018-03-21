@@ -20,7 +20,26 @@
         <div>
           <p>Hello!</p>
         </div>
+        <!-- <div class='banner'>
+          <h1>Hello!</h1>
+        </div>
+        <div class='banner'>
+          <h1>Sup?</h1>
+        </div>
+        <div class='banner'>
+          <h5>tinier heading</h5>
+        </div> -->
       </div>
     </main>
   </body>
 </html>
+
+<script>
+  document.getElementsByTagName('div')
+  const main = document.getElementsByTagName('main')[0]
+  const secondDiv = main.children[1]
+  const secondP = secondDiv.getElementsByTagName('p')[0]
+  secondP.textContent = 'Goodbye!'
+  // document.getElementsByClassName('banner')
+  // document.getElementsByTagName('h1')
+</script>
